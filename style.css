@@ -1,64 +1,88 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-			"http://www.w3.org/TR/html4/strict.dtd">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-<html>
-	<head>
-		<title>Perfil Pessoal</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	
-	<body>
-		<h1>Perfil Pessoal</h1>
+body {
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #3b3b3b;
+	background-color: #3b3b3b;
 
-		<div class="secao">
-			<p>Frase que me define</p>
-		</div>
+}
 
-		<div class="secao">
-			<h2>Minhas Redes Sociais</h2>			
-				<div id="hcard-Ademir-Mazer-Jr" class="vcard">
-				  <img src="http://br.gravatar.com/userimage/14935412/cef5ab9d2ae46b1f6371dddbc99f667e.jpg?size=200" alt="photo of Ademir" class="photo"/>
-				
-				 <a class="email" href="mailto:ademir.mazer.jr@gmail.com">ademir.mazer.jr@gmail.com</a>
-				 <a class="url" href="http://ademir.winponta.com.br">http://ademir.winponta.com.br</a>
-			
-				</div>
-		</div>
+h1,h2 {
+	font-family: Georgia;
+}
 
-		<div class="secao">
-			<h2>Minhas Musicas Favoritas</h2>
-			
-			<p>As andorinhas voltaram</p>
-			<p>Farra pinga e foguete</p>
-			<p>Olha o golpe</p>
-		</div>
+h1 {
+	border-bottom: 3px solid #380ed1;
+	background-color: #d7d8dd;
+	color: #1f1d29;
+	padding: 5px;
+}
 
-		<div class="secao">
-			<h2>Minhas maiores habilidades</h2>
-			<p>Tratorista</p>
-			<p>Andar a cavalo</p>
-			<p>Dirigir bem</p>
-		</div>
+h2 {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #DDD;
+	padding-left: 5px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+}
 
-		<div class="secao">
-			<h2>Pessoas mais importantes pra mim</h2>
-			<p>Cesar Falcade</p>
-			<p>Daniele Ribeiro</p>
-			<p>Everton</p>
-		</div>
+.secao {
+	background-color: #eee;
+	padding-left: 15px;
+}
 
-		<div class="secao">
-			<h2>Meus filmes favoritos</h2>
-			<p>Sobrenatural</p>
-			<p>Era do gelo</p>
-			<p>Titanic</p>
-		</div>
-		
-		<div id="footnote">
-			
-			<li>Este site foi criado para a disciplina de Programação  do 2º Ano X do Colégio CQC</li>
-		</div>		
-	</body>
-</html>
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+
+
+a {
+	text-decoration:none;
+	color: #f33;
+}
+
+
+#menu {
+	margin: 0;
+}
+
+#menu ul, #menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu .ativo {
+	background-color: #ddd;
+}
+
+.vcard {
+	padding: 5px;
+}
+
+.url, .email {
+	display: block;
+}
+
+.photo {
+	float: right;
+	margin-right: 20%;
+	border-radius: 20%;
+}
+
+#footnote {
+	border-top: 1px dashed #aaa;
+	padding: 5px;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+
+}
+
+#footnote li {
+	list-style-type: none;
+	margin-top: 3px;
+	color: #700;
+}
 
 
